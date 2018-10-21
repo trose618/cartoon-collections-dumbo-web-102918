@@ -1,7 +1,8 @@
 def roll_call_dwarves(dward_names)# code an argument here
   # Your code here
   dward_names.each_with_index do |name, index|
-    
+    humanized_index = index + 1
+    puts "#{humanized_index} #{name}"
 end
 
 def summon_captain_planet# code an argument here
